@@ -11,6 +11,8 @@ significant differences between your local development environment and
 the Travis CI build environment, you can restart builds in debug mode
 to get shell access to the virtual machine or container.
 
+
+
 ## Restarting a job in debug mode
 
 The "Debug build" or "Debug job" button is available on the upper right corner of
@@ -48,6 +50,8 @@ The `${id}` is a job ID, not a build ID. For example, the ID `248927956` in the 
 
 To show any command input and output you see while connected to the VM running in the debug
 mode, pass an empty JSON object (`{}`) in the payload instead.
+
+> This feature is available for private repositories and those public repositories for which the feature is enabled. To have the feature enabled for a public repository, please email us at support@travis-ci.com indicating which ones. Push access to the repository is also required.
 
 ## Connecting to the job running in the debug mode
 
